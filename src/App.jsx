@@ -31,9 +31,7 @@ function App() {
 
       <main>
         <div class="container">
-          <div class="subTitle">
-            <h2>Bem Vindo</h2>
-          </div>
+          <h2 class="subTitle">Bem Vindo</h2>
           <div class="divBoasVindas">
             <video src={videoinicial} controls autoplay muted></video>
             <div class="divDescontos">
@@ -82,9 +80,7 @@ function App() {
           </div>
         </div>
         <div class="container">
-          <div class="subTitle">
-            <h2>O que veremos nesse curso?</h2>
-          </div>
+          <h2 class="subTitle">O que veremos nesse curso</h2>
           <div class="informativo">
             <div class="textosInformativo">
               <h4>
@@ -111,18 +107,25 @@ function App() {
                 dela, crie um arquivo chamado "index.html," que será nosso arquivo principal.
                 Com o uso da tecla F5, poderemos executar esse arquivo a qualquer momento para visualizar seu
                 conteúdo. No entanto, neste momento, não veremos nada, pois ainda não há conteúdo no arquivo.
-
               </p>
             </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="subTitle">Existem versões antigas</h2>
+          <div>
+            <p>
+              Sim, este projeto teve como objetivo criar uma plataforma de estudos, que inclui recursos como login, senha, aulas gravadas, provas para obter certificados, seções de ajuda, entre outros. No entanto, é importante ressaltar que este projeto é fictício e foi inicialmente concebido para atender aos requisitos de um trabalho acadêmico na instituição SENAI/MG. É relevante destacar que o desenvolvimento do projeto não foi realizado exclusivamente por mim; minha equipe era composta por Aline Silmara, Clóvis Domingues, Fernanda Yasmin e Rafael Nogueira (eu). Com meu envolvimento no projeto, busquei aprimorar meus conhecimentos e utilizei a tecnologia React.js para sua implementação, visando uma atualização e modernização do projeto.
+            </p>
           </div>
         </div>
       </main>
 
       <footer>
         <div id="copy-area">
-              <p> &copy; Todos direitos resevados <a href="https://portifolio-rafael.netlify.app" target="_blank">
-                Rafael
-                Nogueira</a> 2023</p>
+          <p> &copy; Todos direitos resevados <a href="https://portifolio-rafael.netlify.app" target="_blank">
+            Rafael
+            Nogueira</a> 2023</p>
         </div>
       </footer>
     </>
