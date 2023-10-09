@@ -7,6 +7,10 @@ function App() {
   return (
     <>
       <header>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          Este site foi criado exclusivamente para fins educacionais e de aprendizado. Não oferecemos produtos ou serviços comerciais.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <img src={logo} class="logo" />
@@ -113,12 +117,13 @@ function App() {
         </div>
         <div class="container">
           <h2 class="subTitle">Existem versões antigas</h2>
-          <div>
+          <div class="informativo">
             <p>
-              Sim, este projeto teve como objetivo criar uma plataforma de estudos, que inclui recursos como login, senha, aulas gravadas, provas para obter certificados, seções de ajuda, entre outros. No entanto, é importante ressaltar que este projeto é fictício e foi inicialmente concebido para atender aos requisitos de um trabalho acadêmico na instituição SENAI/MG. É relevante destacar que o desenvolvimento do projeto não foi realizado exclusivamente por mim; minha equipe era composta por Aline Silmara, Clóvis Domingues, Fernanda Yasmin e Rafael Nogueira (eu). Com meu envolvimento no projeto, busquei aprimorar meus conhecimentos e utilizei a tecnologia React.js para sua implementação, visando uma atualização e modernização do projeto.
+              Sim, este projeto teve como objetivo criar uma plataforma de estudos, que inclui recursos como login, senha, aulas gravadas, provas para obter certificados, seções de ajuda, entre outros. No entanto, é importante ressaltar que este projeto é fictício e foi inicialmente concebido para atender aos requisitos de um trabalho acadêmico na instituição SENAI/MG. É relevante destacar que o desenvolvimento do projeto não foi realizado exclusivamente por mim; minha equipe era composta por Aline Silmara, Clóvis Domingues, Fernanda Yasmin e Rafael Nogueira. Com meu envolvimento no projeto, busquei aprimorar meus conhecimentos e utilizei a tecnologia React.js para sua implementação, visando uma atualização e modernização do projeto.
             </p>
           </div>
         </div>
+
       </main>
 
       <footer>
