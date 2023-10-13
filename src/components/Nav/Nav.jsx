@@ -20,9 +20,10 @@ function Nav() {
                         <div className="navbar-nav">
                             <a className="nav-link active" aria-current="page" href="index.html">Menu Principal</a>
                             <a className="nav-link" href="pag_video.html">Aulas Gravadas</a>
-                            <a className="nav-link" href="pag_certificado.html">Certificado</a>
+                            <a className="nav-link" href="pag_certificado.html">Meus Certificado</a>
+                            <a className="nav-link" href="pag_perfil.html">Minhas informações</a>
                             <a className="nav-link" href="pag_ajuda.html">Ajuda</a>
-                            <a className="nav-link" href="pag_login.html" tabindex="-1" aria-disabled="true">Logout</a>
+                            <a className="nav-link" href="pag_login.html" tabIndex="-1" aria-disabled="true">Logout</a>
                         </div>
                     </div>
                 </div>

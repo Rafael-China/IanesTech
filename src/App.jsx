@@ -2,9 +2,10 @@ import './App.css'
 import videoinicial from './assets/videoInicial/pag_inicial_video.mp4'
 import Footer from './components/Footer/Footer'
 import Nav from './components/Nav/Nav.jsx'
+import Nome from './components/Name/Name.jsx'
 
 function App() {
-
+  const nome = "Rafael";
   return (
     <>
       <header>
@@ -13,9 +14,9 @@ function App() {
 
       <main>
         <div className="container">
-          <h2 className="subTitle">Bem Vindo</h2>
+          <Nome nome={nome} />
           <div className="divBoasVindas">
-            <video src={videoinicial} controls autoplay muted></video>
+            <video src={videoinicial} controls autoPlay muted></video>
             <div className="divDescontos">
               <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
@@ -105,7 +106,7 @@ function App() {
       </main>
 
       <footer>
-       <Footer/>
+        <Footer />
       </footer>
     </>
   )
