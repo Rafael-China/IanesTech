@@ -79,11 +79,7 @@ main {
     padding: 20px;
 }
 
-@media only screen and (max-width: 500px) {
-
-    .divBoasVindas {
-        flex-direction: column;
-    }
+@media only screen and (max-width: 600px) {
 
     .divBoasVindas video {
         width: 100vw;
