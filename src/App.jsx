@@ -7,26 +7,26 @@ function App() {
   return (
     <>
       <header>
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <div className="alert alert-warning alert-dismissible fade show" role="alert">
           Este site foi criado exclusivamente para fins educacionais e de aprendizado. Não oferecemos produtos ou serviços comerciais.
-          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <img src={logo} class="logo" />
-            <h1 class="nomedaEmpresa">Ianes Tech</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
+            <img src={logo} className="logo" />
+            <h1 className="nomedaEmpresa">Ianes Tech</h1>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.html">Menu Principal</a>
-                <a class="nav-link" href="pag_video.html">Aulas Gravadas</a>
-                <a class="nav-link" href="pag_certificado.html">Certificado</a>
-                <a class="nav-link" href="pag_ajuda.html">Ajuda</a>
-                <a class="nav-link" href="pag_login.html" tabindex="-1" aria-disabled="true">Logout</a>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav">
+                <a className="nav-link active" aria-current="page" href="index.html">Menu Principal</a>
+                <a className="nav-link" href="pag_video.html">Aulas Gravadas</a>
+                <a className="nav-link" href="pag_certificado.html">Certificado</a>
+                <a className="nav-link" href="pag_ajuda.html">Ajuda</a>
+                <a className="nav-link" href="pag_login.html" tabindex="-1" aria-disabled="true">Logout</a>
               </div>
             </div>
           </div>
@@ -34,15 +34,15 @@ function App() {
       </header>
 
       <main>
-        <div class="container">
-          <h2 class="subTitle">Bem Vindo</h2>
-          <div class="divBoasVindas">
+        <div className="container">
+          <h2 className="subTitle">Bem Vindo</h2>
+          <div className="divBoasVindas">
             <video src={videoinicial} controls autoplay muted></video>
-            <div class="divDescontos">
-              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+            <div className="divDescontos">
+              <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                    className="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
@@ -52,41 +52,41 @@ function App() {
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                     aria-label="Slide 5"></button>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="src/assets/imgCarousel/1.png" class="d-block w-100" />
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src="src/assets/imgCarousel/1.png" className="d-block w-100" />
                   </div>
-                  <div class="carousel-item">
-                    <img src="src/assets/imgCarousel/2.png" class="d-block w-100" />
+                  <div className="carousel-item">
+                    <img src="src/assets/imgCarousel/2.png" className="d-block w-100" />
                   </div>
-                  <div class="carousel-item">
-                    <img src="src/assets/imgCarousel/3.png" class="d-block w-100" />
+                  <div className="carousel-item">
+                    <img src="src/assets/imgCarousel/3.png" className="d-block w-100" />
                   </div>
-                  <div class="carousel-item">
-                    <img src="src/assets/imgCarousel/4.png" class="d-block w-100" />
+                  <div className="carousel-item">
+                    <img src="src/assets/imgCarousel/4.png" className="d-block w-100" />
                   </div>
-                  <div class="carousel-item">
-                    <img src="src/assets/imgCarousel/5.png" class="d-block w-100" />
+                  <div className="carousel-item">
+                    <img src="src/assets/imgCarousel/5.png" className="d-block w-100" />
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                   data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
                   data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <h2 class="subTitle">O que veremos nesse curso</h2>
-          <div class="informativo">
-            <div class="textosInformativo">
+        <div className="container">
+          <h2 className="subTitle">O que veremos nesse curso</h2>
+          <div className="informativo">
+            <div className="textosInformativo">
               <h4>
                 O que é HTML e CSS?
               </h4>
@@ -99,7 +99,7 @@ function App() {
                 funcionais.
               </p>
             </div>
-            <div class="textosInformativo">
+            <div className="textosInformativo">
               <h4>
                 Qual Ferramenta utilizaremos?
               </h4>
@@ -115,9 +115,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="container">
-          <h2 class="subTitle">Existem versões antigas</h2>
-          <div class="informativo">
+        <div className="container">
+          <h2 className="subTitle">Existem versões antigas</h2>
+          <div className="informativo">
             <p>
               Sim, este projeto teve como objetivo criar uma plataforma de estudos, que inclui recursos como login, senha, aulas gravadas, provas para obter certificados, seções de ajuda, entre outros. No entanto, é importante ressaltar que este projeto é fictício e foi inicialmente concebido para atender aos requisitos de um trabalho acadêmico na instituição SENAI/MG. É relevante destacar que o desenvolvimento do projeto não foi realizado exclusivamente por mim; minha equipe era composta por Aline Silmara, Clóvis Domingues, Fernanda Yasmin e Rafael Nogueira. Com meu envolvimento no projeto, busquei aprimorar meus conhecimentos e utilizei a tecnologia React.js para sua implementação, visando uma atualização e modernização do projeto.
             </p>
