@@ -1,5 +1,6 @@
 import './App.css'
 import videoinicial from './assets/videoInicial/pag_inicial_video.mp4'
+import Footer from './components/Footer/Footer'
 import Nav from './components/Nav/Nav.jsx'
 
 function App() {
@@ -104,11 +105,7 @@ function App() {
       </main>
 
       <footer>
-        <div id="copy-area">
-          <p> &copy; Todos direitos resevados <a href="https://portifolio-rafael.netlify.app" target="_blank">
-            Rafael
-            Nogueira</a> 2023</p>
-        </div>
+       <Footer/>
       </footer>
     </>
   )
